@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./aside\ pic.png);
+}
+.page-wrapper{
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color: white;
+}
+h1{
+    letter-spacing: 0.5rem;
+   }
+.text{
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+.btn{
+    width: 10rem;
+    padding: 0.8rem;
+    background: none;
+    color: white;
+    border: 0.1rem solid white;
+    font-size: 0.4rem;
+    letter-spacing: 0.2rem;
+}
+.himg{
+    height: 20rem;
+    width: 50%;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+aside{
+    background-color: blue;
+    width: 50%;
+    height: 25rem;
+    display: inline-block;
+    vertical-align: middle;
+    
+ 
+
+}
+main{
+    background-color: brown;
+    width: 50%;
+    height: 25rem;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.aside-img{
+    height: 20rem;
+    width: 50%;
+    object-fit: cover;
+    text-align: end;
+
+}
