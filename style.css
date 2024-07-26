@@ -14,6 +14,7 @@ header {
   font-size: 0;
 }
 h1 {
+  font-size: 2rem;
   letter-spacing: 0.5rem;
 }
 .text {
@@ -44,7 +45,6 @@ h1 {
   padding-top: 5rem;
 }
 aside {
-  background-color: blue;
   width: 50%;
   height: 25rem;
   display: inline-block;
@@ -87,27 +87,53 @@ aside {
   color: grey;
 }
 main {
-  background-color: brown;
   width: 50%;
   height: 25rem;
   display: inline-block;
   vertical-align: middle;
   font-size: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  gap: 1rem;
 }
 .main-text {
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   color: rgb(154, 153, 153);
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
 }
 h2 {
   color: black;
 }
 .main-text2 {
-  text-decoration: line-through black 0.2rem;
+  text-decoration: line-through black 0.1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .main-text3 {
-  font-size: 0.4rem;
+  font-size: 0.8rem;
+  color: grey;
 }
 .list {
+  color: grey;
+  font-size: 0.8rem;
+  text-decoration: none;
+  list-style: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
 }
 .btn1 {
+  background-color: none;
+  font-size: 0.4rem;
+  border: 1px solid black;
+  padding: 0.8rem;
+  width: 8rem;
+  letter-spacing: 0.1rem;
+}
+li::marker {
+  color: green;
+  font-size: 1.5rem;
 }
