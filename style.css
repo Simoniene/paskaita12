@@ -11,6 +11,7 @@ header {
   padding-top: 1rem;
   padding-left: 1rem;
   color: white;
+  font-size: 0;
 }
 h1 {
   letter-spacing: 0.5rem;
@@ -48,19 +49,13 @@ aside {
   height: 25rem;
   display: inline-block;
   vertical-align: middle;
-  display: flex;
   justify-content: right;
+  padding-left: 12rem;
   padding-top: 3rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
 }
-main {
-  background-color: brown;
-  width: 50%;
-  height: 25rem;
-  display: inline-block;
-  vertical-align: middle;
-}
+
 .aside-img {
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -91,8 +86,28 @@ main {
   font-size: 0.5rem;
   color: grey;
 }
-/* .box1 {
-  background-image: url(./feader\ pic.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+main {
+  background-color: brown;
+  width: 50%;
+  height: 25rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1rem;
+}
+.main-text {
+  font-size: 0.5rem;
+  color: rgb(154, 153, 153);
+}
+h2 {
+  color: black;
+}
+.main-text2 {
+  text-decoration: line-through black 0.2rem;
+}
+.main-text3 {
+  font-size: 0.4rem;
+}
+.list {
+}
+.btn1 {
+}
